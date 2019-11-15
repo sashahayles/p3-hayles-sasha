@@ -27,6 +27,8 @@ p {
   margin:auto 6px;
   display: inline-block;
   background-color:#ececf8;
+  transition: background-color 1000ms;
+
 }
 
 h2 {
@@ -44,4 +46,9 @@ h2 {
 }
 .red {
   color:#e3462e;
+}
+
+.pulse {
+  background-color: #b9ace6;
+  transition: background-color 1000ms;
 }
