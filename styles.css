@@ -4,3 +4,12 @@
   background-position: top;
   height: 380px;
 }
+h1 {
+  color: #f9d036;
+  font-family: 'Vidaloka', serif;
+}
+
+p {
+  color:#8f3eb6;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
