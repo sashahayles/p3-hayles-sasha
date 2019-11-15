@@ -1,0 +1,6 @@
+.hero {
+  background-image: url('teller.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+}

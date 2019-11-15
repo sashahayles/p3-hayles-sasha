@@ -1,0 +1,131 @@
+/*font face*/
+/*font face end*/
+
+.hero {
+  background-image: url('images/pizzaplanet.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height:250px;
+}
+
+.mainlogo {
+  width:10%;
+}
+
+.jumbotron {
+  border-radius: 0;
+  margin-bottom:1rem;
+}
+
+.nav-link {
+  color: #f4c844;
+  font-family: 'roboto';
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #f4c844;
+}
+.nav {
+  background-color: #e3001b;
+  border-radius: 0.5rem;
+  margin-bottom: 1.2%;
+  width: 85%;
+  overflow:hidden;
+  transition:height 0.5s;
+  height: 0px;
+}
+
+.show-mobile-menu{
+  height:120px;
+  transition:height 0.5s;
+}
+
+.navbar {
+  padding: 0px !important;
+  justify-content: center;
+}
+
+#hamburger {
+  display:block;
+  color:#e3001b;
+  background-color: white;
+  margin:auto;
+  font-size:35px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.btn {
+  color: #f4c844;
+  background-color: #e3001b;
+  border-color: #f4c844;
+  font-family: 'roboto';
+  padding: 1rem 2rem;
+  font-size:1.2rem;
+  border-width: medium;
+}
+
+.btn:hover {
+  color: #e3001b !important;
+  background-color: #f4c844;
+  border-color: #e3001b;
+}
+
+.img-thumbnail {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.story {
+  background-color:#cacaca;
+}
+
+h1 {
+  color: #e3001b;
+  font-family: 'Planet N';
+  font-size: 1.8rem;
+}
+h2 {
+  text-align: center;
+  font-family: 'roboto';
+  font-size:1.5rem;
+  font-weight: bold;
+}
+
+.col-12 {
+  padding-bottom: 1.5%;
+  font-family: 'roboto';
+  font-size:1.2rem;
+}
+
+.maintext {
+  margin-top: 3rem;
+  text-align:center;
+  font-family: 'roboto';
+  font-size: 1em;
+  word-break: break-all;
+}
+
+footer {
+  background-color: #0e133e;
+  color: white;
+  padding: 1%;
+}
+
+h3{
+  font-family:'roboto';
+  font-size:1rem;
+}
+
+@media (min-width:890px) {
+  .nav {
+    height:40px;
+  }
+
+  #hamburger {
+    display:none;
+  }
+}
