@@ -28,3 +28,20 @@ p {
   display: inline-block;
   background-color:#ececf8;
 }
+
+h2 {
+  position: relative;
+  margin: 4.5rem 0rem;
+}
+.green {
+  color: #63b101;
+}
+.blue {
+  color: #034f8b;
+}
+.yellow {
+  color: #f9d036;
+}
+.red {
+  color:#e3462e;
+}
