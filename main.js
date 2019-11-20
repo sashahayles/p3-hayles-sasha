@@ -1,4 +1,4 @@
-const myCircles = document.querySelectorAll ('.circles h2');
+const myCircles = document.querySelectorAll ('.circles #group');
 
 //The Functionality
 function loopThrough () {
