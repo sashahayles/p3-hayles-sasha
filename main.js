@@ -1,4 +1,5 @@
 const myCircles = document.querySelectorAll ('.circles #group');
+const mynumbuttons = document.getElementsByClassName('block-2');
 
 //The Functionality
 function loopThrough () {

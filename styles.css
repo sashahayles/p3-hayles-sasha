@@ -52,3 +52,6 @@ h2 {
   background-color: #b9ace6;
   transition: background-color 1000ms;
 }
+.hide {
+  display:none;
+}
