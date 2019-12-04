@@ -59,8 +59,7 @@ function changeLayerThree() {
 
 function changeLayerFour() {
   const swapFour = () => {
-    layerFour.classList.add('hide');
-    layerFour.classList.remove('hide');
+      layerFour.classList.remove('hide');
   }
   setTimeout (swapFour, this.textContent.length * 2 * 1000);
 };
