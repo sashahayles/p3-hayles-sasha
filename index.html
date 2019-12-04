@@ -1,20 +1,20 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:600|Vidaloka&display=swap" rel="stylesheet">
-    <title>Fortune Teller</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <div class="hero">
-		</div>
-    <main>
-      <h1>Fortune Teller</h1>
-      <p>Pick a color. <span>Pick a number.</span></p>
-      <div id="layer-one">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:600|Vidaloka&display=swap" rel="stylesheet">
+  <title>Fortune Teller</title>
+</head>
+<body>
+  <!-- Header -->
+  <div class="hero">
+  </div>
+  <main>
+    <h1>Fortune Teller</h1>
+    <div id="layer-one">
+      <p>Pick a color.</p>
       <div class="circles">
         <h2 id="group" class="green">Green</h2>
       </div>
@@ -28,33 +28,34 @@
         <h2 id="group" class="red">Red</h2>
       </div>
     </div>
-      <div class="hide" id="layer-two">
-        <div class="twoCircles">
-          <h2 id="" class ="block-2"> 3</h2>
-        </div>
-        <div class="twoCircles">
-          <h2 id="" class ="block-2"> 4</h2>
-        </div>
-        <div class="twoCircles">
-          <h2 id="" class ="block-2"> 5</h2>
-        </div>
+    <div class="hide" id="layer-two">
+      <p>Pick a number.</p>
+      <div class="twoCircles">
+        <h2 id="" class ="block-2"> 3</h2>
       </div>
-      <div class="hide" id="layer-three">
-        <div class="threeCircles">
-          <h2 class ="block-3"> 6</h2>
-        </div>
-        <div class="threeCircles">
-          <h2 class ="block-3"> 7</h2>
-        </div>
-        <div class="threeCircles">
-          <h2 class ="block-3"> 8</h2>
-        </div>
+      <div class="twoCircles">
+        <h2 id="" class ="block-2"> 4</h2>
       </div>
-      <div class = "hide" id="layer-four">
-        <h3>Here's your Fortune</h3>
-        <p id="user-fortune"></p>
+      <div class="twoCircles">
+        <h2 id="" class ="block-2"> 5</h2>
       </div>
-    </main>
-    <script src="src/main.js"></script>
-  </body>
+    </div>
+    <div class="hide" id="layer-three">
+      <p>Pick another number.</p>
+      <div class="threeCircles">
+        <h2 class ="block-3"> 6</h2>
+      </div>
+      <div class="threeCircles">
+        <h2 class ="block-3"> 7</h2>
+      </div>
+      <div class="threeCircles">
+        <h2 class ="block-3"> 8</h2>
+      </div>
+    </div>
+    <div class = "hide" id="layer-four">
+      <p id="user-fortune"></p>
+    </div>
+  </main>
+  <script src="src/main.js"></script>
+</body>
 </html>
