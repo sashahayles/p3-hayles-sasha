@@ -11,7 +11,7 @@ const mynumbbuttonsThree = document.getElementsByClassName ('block-3');
 const layerFour = document.getElementById ('layer-four');
 
 
-//The Functionality
+//loop Functionality
 function loopThrough () {
   const flashBg = () => this.classList.toggle('pulse');
   for (let i=0; i < this.textContent.length * 2; i++) {

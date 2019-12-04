@@ -36,6 +36,7 @@ h2 {
   margin: 4.5rem 0rem;
   color: #6c1e91;
   font-size: 1.8rem;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 .green {
   color: #63b101;
@@ -79,4 +80,8 @@ h2 {
   display: inline-block;
   background-color:#ececf8;
   transition: background-color 1000ms;
+}
+.user-fortune p {
+  padding-top:0.4em;
+  font-size:1.7rem;
 }
