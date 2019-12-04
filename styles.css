@@ -55,7 +55,7 @@ h2 {
 .hide {
   display:none;
 }
-.block-2 {
+/*.block-2 {
   width:180px;
   height:180px;
   border: solid 10px #ececf8;
@@ -65,3 +65,4 @@ h2 {
   background-color:#ececf8;
   transition: background-color 1000ms;
 }
+*/
