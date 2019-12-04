@@ -56,6 +56,14 @@ function changeLayerThree() {
   }
   setTimeout (swap, this.textContent.length * 2 * 1000);
 };
+
+function changeLayerFour() {
+  const swap = () => {
+    layerFour.classList.add('hide');
+    layerFour.classList.remove('hide');
+  }
+  setTimeout (swap, this.textContent.length * 2 * 1000);
+};
 //The Event Listener
 for (let i = 0; i < myCircles.length; i++) {
   myCircles[i].addEventListener('click', loopThrough);
@@ -71,10 +79,20 @@ for (let i = 0; i < mynumbuttons.length; i++) {
   mynumbbuttonsThree[i].addEventListener('click', loopThroughThree);
   mynumbbuttonsThree[i].addEventListener('click', changeLayerThree);
 };
-//  function loopThroughTwo () {
-//    const flashBgTwo = () => { this.classList.toggle ('pulse');
-//    const numStringValue = this.firstElementChild.textContent;
-//    for (let i = 0; i < Number(numStringValue) * 2; i++) {
-//      setTimeout (flashbgTwo, i * 1000);
-//    }
-//  };
+
+//fortune layer
+let fortuneRandom = ["Don't be afraid to take the plunge.", "Being a spendthrift is not healthy. Practice the act of giving and sharing.",
+"Never lose the ability to find beauty in ordinary things.","Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+"The real kindness comes from within you.", "You don’t need strength to let go of something. What you really need is understanding.",
+"The wise man is the one that makes you think that he is dumb.", "A stranger, is a friend you have not spoken to yet.",
+"The man on the top of the mountain did not fall there.", "Jealousy doesn't open doors, it closes them!"];
+console.log(fortuneRandom);
+
+const fortuneQuote = document.getElementById ('user-fortune');
+
+const randomQuotes = () => {
+  fortuneQuote.innerHTML = fortuneRandom [Math.floor(Math.random() * fortuneRandom.length)];
+};
+for (let i = 0; i < mynumbbuttonsThree.length; i++) {
+  mynumbbuttonsThree[i].addEventListener ('click', randomQuotes);
+};

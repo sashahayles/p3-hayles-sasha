@@ -55,7 +55,7 @@ h2 {
 .hide {
   display:none;
 }
-.block-2 {
+.twoCircles {
   width:180px;
   height:180px;
   border: solid 10px #ececf8;
@@ -66,7 +66,7 @@ h2 {
   transition: background-color 1000ms;
 }
 
-.block-3 {
+.threeCircles {
   width:180px;
   height:180px;
   border: solid 10px #ececf8;
