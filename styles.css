@@ -65,3 +65,14 @@ h2 {
   background-color:#ececf8;
   transition: background-color 1000ms;
 }
+
+.block-3 {
+  width:180px;
+  height:180px;
+  border: solid 10px #ececf8;
+  border-radius: 50%;
+  margin:auto 6px;
+  display: inline-block;
+  background-color:#ececf8;
+  transition: background-color 1000ms;
+}
