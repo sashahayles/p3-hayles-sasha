@@ -1,6 +1,6 @@
 
 const layerOne = document.getElementById('layer-one');
-const myCircles = document.querySelectorAll ('.circles #group');
+const myCircles = document.querySelectorAll ('.circles .group');
 
 const layerTwo =  document.getElementById('layer-two');
 const mynumbuttons = document.getElementsByClassName('block-2');
