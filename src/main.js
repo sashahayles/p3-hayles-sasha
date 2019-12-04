@@ -42,27 +42,27 @@ function changeLayer() {
 };
 
 function changeLayerTwo() {
-  const swap = () => {
+  const swapTwo = () => {
     layerTwo.classList.add('hide');
     layerThree.classList.remove('hide');
   }
-  setTimeout (swap, this.textContent.length * 2 * 1000);
+  setTimeout (swapTwo, this.textContent.length * 2 * 1000);
 };
 
 function changeLayerThree() {
-  const swap = () => {
+  const swapThree = () => {
     layerThree.classList.add('hide');
     layerFour.classList.remove('hide');
   }
-  setTimeout (swap, this.textContent.length * 2 * 1000);
+  setTimeout (swapThree, this.textContent.length * 2 * 1000);
 };
 
 function changeLayerFour() {
-  const swap = () => {
+  const swapFour = () => {
     layerFour.classList.add('hide');
     layerFour.classList.remove('hide');
   }
-  setTimeout (swap, this.textContent.length * 2 * 1000);
+  setTimeout (swapFour, this.textContent.length * 2 * 1000);
 };
 //The Event Listener
 for (let i = 0; i < myCircles.length; i++) {

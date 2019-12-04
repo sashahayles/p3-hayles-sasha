@@ -34,6 +34,8 @@ p {
 h2 {
   position: relative;
   margin: 4.5rem 0rem;
+  color: #6c1e91;
+  font-size: 1.8rem;
 }
 .green {
   color: #63b101;
@@ -50,6 +52,8 @@ h2 {
 
 .pulse {
   background-color: #b9ace6;
+  border: solid 1px #b9ace6;
+  border-radius: 5%;
   transition: background-color 1000ms;
 }
 .hide {
